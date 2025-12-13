@@ -1,0 +1,21 @@
+{
+    "nowplayingirl.config.title": "Configuration Now Playing IRL",
+    "nowplayingirl.config.position": "Position du widget",
+    "nowplayingirl.config.position.bottom_right": "Bas droite",
+    "nowplayingirl.config.position.bottom_left": "Bas gauche",
+    "nowplayingirl.config.position.top_right": "Haut droite",
+    "nowplayingirl.config.position.top_left": "Haut gauche",
+    "nowplayingirl.config.scale": "Taille",
+    "nowplayingirl.config.opacity": "Opacité",
+    "nowplayingirl.config.rotation_speed": "Vitesse de rotation",
+    "nowplayingirl.config.show_album_art": "Afficher la pochette",
+    "nowplayingirl.config.theme": "Thème",
+    "nowplayingirl.config.enabled": "Activé",
+    "nowplayingirl.silence": "Silence...",
+    "nowplayingirl.sleeping": "♪ zzZ",
+    
+    "key.nowplayingirl.category": "Now Playing IRL",
+    "key.nowplayingirl.toggle": "Afficher/Masquer",
+    "key.nowplayingirl.config": "Ouvrir les paramètres",
+    "key.nowplayingirl.cycle_theme": "Changer de thème"
+}

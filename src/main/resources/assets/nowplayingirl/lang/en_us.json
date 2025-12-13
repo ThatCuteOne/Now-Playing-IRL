@@ -1,0 +1,21 @@
+{
+    "nowplayingirl.config.title": "Now Playing IRL Config",
+    "nowplayingirl.config.position": "Widget Position",
+    "nowplayingirl.config.position.bottom_right": "Bottom Right",
+    "nowplayingirl.config.position.bottom_left": "Bottom Left",
+    "nowplayingirl.config.position.top_right": "Top Right",
+    "nowplayingirl.config.position.top_left": "Top Left",
+    "nowplayingirl.config.scale": "Scale",
+    "nowplayingirl.config.opacity": "Opacity",
+    "nowplayingirl.config.rotation_speed": "Album Art Rotation Speed",
+    "nowplayingirl.config.show_album_art": "Show Album Art",
+    "nowplayingirl.config.theme": "Theme",
+    "nowplayingirl.config.enabled": "Enabled",
+    "nowplayingirl.silence": "Silence...",
+    "nowplayingirl.sleeping": "♪ zzZ",
+    
+    "key.nowplayingirl.category": "Now Playing IRL",
+    "key.nowplayingirl.toggle": "Toggle Widget",
+    "key.nowplayingirl.config": "Open Settings",
+    "key.nowplayingirl.cycle_theme": "Cycle Theme"
+}

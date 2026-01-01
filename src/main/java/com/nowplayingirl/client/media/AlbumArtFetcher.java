@@ -24,6 +24,7 @@ import java.util.Map;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class AlbumArtFetcher {
     
@@ -178,7 +179,7 @@ public class AlbumArtFetcher {
                 client.execute(() -> {
                     try {
                         NativeImage image = NativeImage.read(new ByteArrayInputStream(pngData));
-                        NativeImageBackedTexture texture = new NativeImageBackedTexture(image);
+                        NativeImageBackedTexture texture = new NativeImageBackedTexture(() -> "meow",image);
                         client.getTextureManager().registerTexture(textureId, texture);
                         result[0] = textureId;
                     } catch (Exception e) {

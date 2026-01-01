@@ -8,9 +8,6 @@ import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.SliderWidget;
 import net.minecraft.text.Text;
 import org.joml.Matrix3x2f;
-import org.joml.Matrix3x2fc;
-import org.joml.Matrix4f;
-import org.joml.Quaternionf;
 
 public class ConfigScreen extends Screen {
 

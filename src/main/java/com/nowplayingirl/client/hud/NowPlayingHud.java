@@ -1,8 +1,6 @@
 package com.nowplayingirl.client.hud;
 
-import com.mojang.blaze3d.pipeline.RenderPipeline;
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.nowplayingirl.NowPlayingIRLMod;
+
 import com.nowplayingirl.client.NowPlayingClient;
 import com.nowplayingirl.client.config.ModConfig;
 import com.nowplayingirl.client.media.MediaInfo;
@@ -10,13 +8,8 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gl.RenderPipelines;
 import net.minecraft.client.gui.DrawContext;
-import net.minecraft.client.gui.render.GuiRenderer;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.debug.DebugRenderer;
 import net.minecraft.util.Identifier;
 import org.joml.Matrix3x2f;
-import org.joml.Matrix3x2fc;
-import org.joml.Quaternionf;
 
 public class NowPlayingHud {
     
